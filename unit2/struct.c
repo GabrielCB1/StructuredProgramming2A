@@ -5,7 +5,8 @@
 #include "./folderTest/utils.h"
 
 
-
+int a = 2;
+int b = 4;
 
 
 int main(int argc, char** argv){
@@ -20,6 +21,14 @@ int main(int argc, char** argv){
         printf("myInt: %d\n", myStructP->myInt );
 
         myStructC.ShowIntAdress(&otroInt );
+
+        UTILS obj;
+        obj.myInt=100;
+        obj.mySwap = swap;
+
+        obj.mySwap( &a, &b );
+
+        printf ("a:%d, b:%d.",a,b);
 
 
 

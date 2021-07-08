@@ -10,6 +10,9 @@ typedef struct utils {
         void (*ShowIntAdress) (int* param);
         
 
+        void (*mySwap) (int* ptr1, int* ptr2);
+        
+
 }UTILS;
 
 typedef struct  array
