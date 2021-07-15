@@ -67,13 +67,7 @@ void modifyVariablesAddress( int* dir1   ,  int* dir2, int multiplo ){
         *dir2 =  *dir2 * multiplo;
         return;
 }
-void swap( int* ptr1, int* ptr2){
-        int temp = *ptr1; 
-        *ptr1 = *ptr2;
-        *ptr2 = temp;
-        return;
-        printf("Hola munda!");
-}
+
 
 // void swapGobal(){
 //         int temp = myVar1;
