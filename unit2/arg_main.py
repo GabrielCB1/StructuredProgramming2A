@@ -9,7 +9,7 @@ my_list = [] ##List ()
 
 if __name__ == "__main__":
 
-    my_int = int ( sys.argv[1] )
+    my_int = int( sys.argv[1] )
     my_str = str ( sys.argv[2] )
     my_float = sys.argv[3]
     my_bool = sys.argv[4] ##False

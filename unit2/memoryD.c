@@ -15,6 +15,13 @@ int main(){
     //myChar = oint + '0';//
 
     arrayPointer = (int*) malloc(6* sizeof(int));
+    arrayPointer[0]= 35;
+    arrayPointer[1]= 36;
+    arrayPointer[2]= 37;
+    arrayPointer[3]= 39;
+    arrayPointer[4]= 40;
+    arrayPointer[5]= 41;
+    
 
     for (int index =0; index<6; index++){
 
@@ -29,11 +36,19 @@ int main(){
     }
 
 
-    arrayPointer = (int*)realloc (arrayPointer,10);
+    arrayPointer = realloc (arrayPointer,10*sizeof(int));
     arrayPointer[6]= 20;
     arrayPointer[7]= 28;
     arrayPointer[8]= 25;
     arrayPointer[9]= 24;
+
+    printf("------------\n");
+    for (int index= 0; index<10; index++)
+    {
+        printf("arrayPointer[%d]:'%d'\n", index, arrayPointer[index]);
+    }
+    
+    free(arrayPointer);
 
 
 

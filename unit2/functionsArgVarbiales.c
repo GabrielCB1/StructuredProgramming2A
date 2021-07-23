@@ -5,6 +5,9 @@
 int var1 =10;
 int var2 =20;
 
+int myVar1 =30;
+int myVar2=50;
+
 int  main (int argc, char** argv){
 
     printf("var1 = %d, var2= %d\n", var1, var2);
