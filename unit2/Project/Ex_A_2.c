@@ -17,8 +17,8 @@ int main(int argc, char *argv[])
 
     printf("The sum is: %.1f\n",sum);
 	printf("The rest is: %.1f\n",rest);
-	printf("The rest is: %.1f\n",mult);
-	printf("The rest is: %.2f\n",div);
+	printf("The multiplication is: %.1f\n",mult);
+	printf("The division is: %.2f\n",div);
   
 
     return 0;

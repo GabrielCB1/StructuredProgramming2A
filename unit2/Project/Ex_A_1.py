@@ -1,21 +1,15 @@
 import sys
  
 n = len(sys.argv)
-n=n-1
-print("Total arguments passed:", n)
 
-
-Sum = 0
-
+sum=0
 for i in range(1, n):
-    Sum += int(sys.argv[i])
+    sum += int(sys.argv[i])
 
+n=n-1
+average= sum/n
 
-average=0
-
-average= Sum/n
-
-print("\n\nResult:", average)
+print("\nResult:", average)
 
      
 
