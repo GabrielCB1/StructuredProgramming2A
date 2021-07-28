@@ -32,7 +32,7 @@ void reverseWords(char* s)
 //Join ur char to be inversed.//
 int main()
 {
-    char s[] = "Hello World";
+    char s[] = "Hello this is an example";
     char* temp = s;
     reverseWords(s);
     printf("%s\n", s);
